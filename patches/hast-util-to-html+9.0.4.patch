@@ -1,0 +1,13 @@
+diff --git a/node_modules/hast-util-to-html/lib/handle/index.js b/node_modules/hast-util-to-html/lib/handle/index.js
+index 31401e1..67bd4e3 100644
+--- a/node_modules/hast-util-to-html/lib/handle/index.js
++++ b/node_modules/hast-util-to-html/lib/handle/index.js
+@@ -3,7 +3,7 @@
+  * @import {State} from '../index.js'
+  */
+ 
+-import {zwitch} from 'zwitch'
++const zwitch = require('zwitch');
+ import {comment} from './comment.js'
+ import {doctype} from './doctype.js'
+ import {element} from './element.js'
