@@ -39,17 +39,18 @@ const SkillsList = () => {
   const skills = {
     "Web Development": [
       "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+      "School and NGO websites",
+      "Website Generator",
     ],
     "Mobile Development": [
       "Mobile-friendly web apps",
       "React Native mobile apps",
+      "IOS Native Movie apps with Swift"
     ],
     "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
+      "Specilize in UI design with Figma & Canva",
       "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+      "Bringing figma designs to life",
     ],
   };
 
