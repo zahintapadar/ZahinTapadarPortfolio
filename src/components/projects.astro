@@ -4,7 +4,8 @@ import svgl from "../../public/tel.png";
 import stockin from "../../public/vsn.jpeg";
 import moviesfordevs from "../../public/quize.jpg";
 import tron from "../../public/webgeny.png";
-
+import personify from "../../public/personify.png";
+import ollama from "../../public/ollama.png";
 interface Project {
   title: string;
   image: ImageMetadata;
@@ -14,6 +15,27 @@ interface Project {
 }
 
 const projects: Project[] = [
+  {
+    title: "Personify",
+    image: personify as ImageMetadata,
+    link: "https://github.com/falkon2/personify",
+    preview: "https://personify.vercel.app/",
+    status: "Developed",
+  },
+  {
+    title: "Ollama",
+    image: ollama as ImageMetadata,
+    link: "https://github.com/falkon2/beautifyollama",
+    preview: "https://beautifyollama.vercel.app/",
+    status: "Developed",
+  },
+    {
+    title: "Tech For Life",
+    image: svgl as ImageMetadata,
+    link: "https://github.com/falkon2/techforlife",
+    preview: "https://techforlife.vercel.app/",
+    status: "Developed",
+  },
   {
     title: "Quize",
     image: moviesfordevs as ImageMetadata,
@@ -28,13 +50,7 @@ const projects: Project[] = [
     preview: "https://voiceofstraysandnature.web.app/",
     status: "Developed",
   },
-  {
-    title: "Tech For Life",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/falkon2/techforlife",
-    preview: "https://techforlife.vercel.app/",
-    status: "Developed",
-  },
+
   {
     title: "WebGeny",
     image: tron as ImageMetadata,
