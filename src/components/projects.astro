@@ -6,6 +6,7 @@ import moviesfordevs from "../../public/quizemac.jpg";
 import tron from "../../public/webgenymac.jpg";
 import personify from "../../public/personifymac.png";
 import ollama from "../../public/ollamamacbeautify.jpg";
+import btrLogo from "../../public/btr-logo.png";
 interface Project {
   title: string;
   image: ImageMetadata;
@@ -15,6 +16,7 @@ interface Project {
 }
 
 const projects: Project[] = [
+
   {
     title: "Personify",
     image: personify as ImageMetadata,
@@ -34,6 +36,13 @@ const projects: Project[] = [
     image: svgl as ImageMetadata,
     link: "https://github.com/zahintapadar/techforlife",
     preview: "https://techforlife.vercel.app/",
+    status: "Developed",
+  },
+    {
+    title: "BTR",
+    image: btrLogo as ImageMetadata,
+    link: "https://btripr.in", 
+    preview: "https://btripr.in",
     status: "Developed",
   },
   {
